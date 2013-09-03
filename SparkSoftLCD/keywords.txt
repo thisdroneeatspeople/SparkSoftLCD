@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map For Ultrasound
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SparkSoftLCD	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+cursor	KEYWORD2
+cursorTo	KEYWORD2
+backlight	KEYWORD2
+clear	KEYWORD2
+moveCursor	KEYWORD2
+enable	KEYWORD2
+sendControl	KEYWORD2
+scroll	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
