@@ -15,7 +15,7 @@ for other work.  Of course, having to load SoftwareSerial, NewSoftSerial, etc.
 and then sending all the different commands manually is a pain.  So, this 
 library provides easy methods for each of the common functions of the LCD.
 
-== Differences between SoftwareSerial and SparkSoftLCD
+## Differences between SoftwareSerial and SparkSoftLCD
 
 The SparkSoftLCD library is based on the SoftwareSerial Library included in the 
 Arduino core, and therefore works very similarly, in that you begin a connection 
@@ -23,7 +23,7 @@ by specifying the baud rate, and then can print() to the LCD.  However, as our
 goal is to simply control the LCD, there is no read() function, nor is println()
 supported.
 
-=== Methods not included from SoftwareSerial:
+### Methods not included from SoftwareSerial:
 
     read()
     println()
@@ -39,7 +39,7 @@ You would, instead, say:
 
 _LCD_WIDTH is the width of the LCD, either 16 or 20 characters_
 
-== Using the Library
+## Using the Library
 
 	#include "SparkSoftLCD.h"
 	
@@ -75,7 +75,7 @@ _LCD_WIDTH is the width of the LCD, either 16 or 20 characters_
 	}
 	
 
-== Methods
+## Methods
 
 On top of the `print()` and `begin()` methods, the following new methods are provided:
 
